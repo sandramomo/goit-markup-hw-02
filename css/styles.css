@@ -1,0 +1,142 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: white;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: #434455;
+}
+.logo-top,
+.logo-btm {
+  font-family: "Raleway", sans-serif;
+}
+.logo-top::before {
+  content: "Web ";
+  color: #404bbf;
+}
+
+.logo-top::after {
+  content: "Studio";
+  color: #2e2f42;
+}
+
+ul {
+  list-style-type: none;
+}
+.main-nav {
+  color: #2e2f42;
+}
+.main-nav:hover,
+.contacts:hover {
+  color: #404bbf;
+}
+.order-service {
+  background-color: #2e2f42;
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2%;
+  color: #ffffff;
+}
+.order-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 4%;
+  cursor: pointer;
+}
+.order-btn:hover {
+  background-color: #404bbf;
+}
+.advantage-header {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 2%;
+}
+.advantage-text {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 2%;
+  color: #434455;
+}
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-member {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background-color: white;
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+  height: 380px;
+}
+.member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #2e2f42;
+}
+.member-position {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #434455;
+}
+.product {
+  width: 360px;
+  height: 420px;
+  background-color: white;
+}
+.product-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.product-text {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  width: 360px;
+  height: 120px;
+}
+.footer-context {
+  height: 312px;
+  background-color: #2e2f42;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.logo-btm::before {
+  content: "Web ";
+  color: #404bbf;
+}
+
+.logo-btm::after {
+  content: "Studio";
+  color: #f4f4fd;
+}
