@@ -38,13 +38,10 @@ ul {
   font-style: normal;
   letter-spacing: 0.02em;
 }
-.phone-number:hover,
-.mail:hover,
+.contact-element:hover,
 .nav-element:hover,
 .nav-element:focus,
-.contacts:focus,
-.mail:focus,
-.phone-number:focus {
+.contact-element:focus {
   color: #404bbf;
 }
 .main-text {
