@@ -28,7 +28,8 @@ ul {
 .logo-text-btm {
   color: #f4f4fd;
 }
-.main-nav {
+.main-nav,
+.nav-element {
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -39,10 +40,8 @@ ul {
 }
 .phone-number:hover,
 .mail:hover,
-.nav-studio:hover,
-.nav-portfolio:hover,
-.nav-contacts:hover,
-.nav-studio:focus,
+.nav-element:hover,
+.nav-element:focus,
 .contacts:focus,
 .mail:focus,
 .phone-number:focus {
@@ -69,11 +68,13 @@ ul {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
-.order-btn:hover .order-btn:focus {
+.order-btn:hover,
+.order-btn:focus {
   background-color: #404bbf;
 }
 .advantage-header {
