@@ -8,53 +8,72 @@ a {
   text-decoration: none;
   color: #434455;
 }
-.logo-top,
-.logo-btm {
-  font-family: "Raleway", sans-serif;
-}
-.logo-top::before {
-  content: "Web ";
-  color: #404bbf;
-}
-
-.logo-top::after {
-  content: "Studio";
-  color: #2e2f42;
-}
-
 ul {
   list-style-type: none;
 }
-.main-nav {
+.logo,
+.logo-text-tp,
+.logo-text-btm {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-text-tp {
   color: #2e2f42;
 }
-.main-nav:hover,
-.contacts:hover {
+.logo-text-btm {
+  color: #f4f4fd;
+}
+.main-nav {
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.contacts {
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+.phone-number:hover,
+.mail:hover,
+.nav-studio:hover,
+.nav-portfolio:hover,
+.nav-contacts:hover,
+.nav-studio:focus,
+.contacts:focus,
+.mail:focus,
+.phone-number:focus {
   color: #404bbf;
+}
+.main-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .order-service {
   background-color: #2e2f42;
   font-size: 56px;
   font-weight: 700;
   text-align: center;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .order-btn {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
-.order-btn:hover {
+.order-btn:hover .order-btn:focus {
   background-color: #404bbf;
 }
 .advantage-header {
@@ -62,81 +81,63 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .advantage-text {
   font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .section-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+.team {
+  background-color: #f4f4fd;
 }
 .team-member {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: white;
-  border-radius: 0 0 4px 4px;
-  width: 264px;
-  height: 380px;
 }
 .member-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
 .member-position {
   font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
 }
 .product {
-  width: 360px;
-  height: 420px;
   background-color: white;
 }
 .product-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.product-text {
+.product-type {
   font-size: 16px;
-  line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  width: 360px;
-  height: 120px;
 }
 .footer-context {
-  height: 312px;
   background-color: #2e2f42;
 }
 .footer-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-.logo-btm::before {
-  content: "Web ";
-  color: #404bbf;
-}
-
-.logo-btm::after {
-  content: "Studio";
   color: #f4f4fd;
 }
